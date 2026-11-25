@@ -1,0 +1,1800 @@
+{
+ "format": "amazon-cinematic-v3",
+ "film": {
+  "title_ar": "الأمازون",
+  "title_en": "AMAZON",
+  "kicker_ar": "فيلم وثائقي"
+ },
+ "chapters": [
+  {
+   "start_scene": 1,
+   "title_ar": "وحيدًا في المجهول",
+   "title_en": "ALONE IN THE UNKNOWN"
+  },
+  {
+   "start_scene": 10,
+   "title_ar": "حياة لا تُرى",
+   "title_en": "UNSEEN LIFE"
+  },
+  {
+   "start_scene": 13,
+   "title_ar": "النهر",
+   "title_en": "THE RIVER"
+  },
+  {
+   "start_scene": 21,
+   "title_ar": "الضفة الأخرى",
+   "title_en": "THE FAR BANK"
+  },
+  {
+   "start_scene": 27,
+   "title_ar": "العدو الصغير",
+   "title_en": "THE SMALLEST ENEMY"
+  },
+  {
+   "start_scene": 33,
+   "title_ar": "حين يحلّ الظلام",
+   "title_en": "WHEN DARKNESS FALLS"
+  },
+  {
+   "start_scene": 47,
+   "title_ar": "المطر",
+   "title_en": "THE RAIN"
+  },
+  {
+   "start_scene": 54,
+   "title_ar": "الصباح الثاني",
+   "title_en": "THE SECOND MORNING"
+  },
+  {
+   "start_scene": 61,
+   "title_ar": "الخيارات تتقلّص",
+   "title_en": "NARROWING OPTIONS"
+  },
+  {
+   "start_scene": 71,
+   "title_ar": "أهل الغابة",
+   "title_en": "PEOPLE OF THE FOREST"
+  },
+  {
+   "start_scene": 76,
+   "title_ar": "عالمٌ صنعناه",
+   "title_en": "THE WORLD WE BUILT"
+  },
+  {
+   "start_scene": 84,
+   "title_ar": "السؤال الحقيقي",
+   "title_en": "THE REAL QUESTION"
+  }
+ ],
+ "species": {
+  "eel": {
+   "name_ar": "الأنقليس الكهربائي",
+   "latin": "Electrophorus electricus",
+   "facts": [
+    "ليس أنقليسًا حقيقيًا، بل من أسماك السكّين",
+    "يولّد صدمات كهربائية للصيد والدفاع"
+   ]
+  },
+  "piranha": {
+   "name_ar": "سمكة البيرانا",
+   "latin": "Pygocentrus nattereri",
+   "facts": [
+    "تعيش وتتحرك في أسراب",
+    "سمعتها في الأفلام مبالغ فيها كثيرًا"
+   ]
+  },
+  "jaguar": {
+   "name_ar": "اليغور",
+   "latin": "Panthera onca",
+   "facts": [
+    "أكبر القطط البرية في الأمريكتين",
+    "صيّاد متخفٍّ يتجنب البشر غالبًا"
+   ]
+  },
+  "mosquito": {
+   "name_ar": "بعوضة الأنوفيلة",
+   "latin": "Anopheles spp.",
+   "facts": [
+    "إناثها تنقل طفيل الملاريا",
+    "البعوض أخطر الحيوانات على البشر عالميًا"
+   ]
+  },
+  "viper": {
+   "name_ar": "أفعى الحُفَر",
+   "latin": "Viperidae · Crotalinae",
+   "facts": [
+    "تستشعر حرارة فرائسها بحُفَر خاصة",
+    "سامّة ومتقنة للتمويه"
+   ]
+  },
+  "anaconda": {
+   "name_ar": "الأناكوندا الخضراء",
+   "latin": "Eunectes murinus",
+   "facts": [
+    "من أثقل الثعابين في العالم",
+    "غير سامّة؛ تعصر فرائسها"
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "scene": 1,
+   "title": "الاستيقاظ في المجهول",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.09,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "rays",
+    "mist",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "explorer waking wet ground"
+  },
+  {
+   "scene": 2,
+   "title": "لا أثر للبشر",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "orbit_left",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "explorer scanning forest no people"
+  },
+  {
+   "scene": 3,
+   "title": "الهاتف بلا شبكة",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0.15
+   },
+   "mood": "day_mist",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "zoom_through",
+   "hint": "phone signal",
+   "hud": {
+    "signal": 0,
+    "battery": 0.62,
+    "hl": [
+     "signal"
+    ]
+   }
+  },
+  {
+   "scene": 4,
+   "title": "المؤن القليلة",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "rotate",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "checking supplies bottle knife food",
+   "hud": {
+    "water": 1.0,
+    "food": 0.4,
+    "hl": [
+     "water",
+     "food"
+    ]
+   }
+  },
+  {
+   "scene": 5,
+   "title": "يوم واحد",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "crane_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "rays",
+    "dust"
+   ],
+   "transition_out": "slow_dissolve",
+   "hint": "tightens backpack straps",
+   "kinetic": "يوم واحد"
+  },
+  {
+   "scene": 6,
+   "title": "الغابة ليست طريقًا",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "pull_out",
+    "amount": 0.1,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "choosing path direction"
+  },
+  {
+   "scene": 7,
+   "title": "التقدم بصعوبة",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "pan_left",
+    "amount": 1,
+    "handheld": 0.35
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "whip_left",
+   "hint": "parts leaves vines"
+  },
+  {
+   "scene": 8,
+   "title": "أرض لا تثق بها",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0.3
+   },
+   "mood": "day",
+   "fx": [
+    "drips"
+   ],
+   "transition_out": "cut",
+   "hint": "boot mud"
+  },
+  {
+   "scene": 9,
+   "title": "السماء المختفية",
+   "duration": 10,
+   "chapter": 1,
+   "camera": {
+    "move": "tilt_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "rays",
+    "dust",
+    "drips"
+   ],
+   "transition_out": "whip_down",
+   "hint": "tilting head upward canopy"
+  },
+  {
+   "scene": 10,
+   "title": "لا تعتمد على عينيك",
+   "duration": 10,
+   "chapter": 2,
+   "camera": {
+    "move": "dolly_zoom",
+    "amount": 1,
+    "handheld": 0.2
+   },
+   "mood": "tension",
+   "fx": [
+    "dust",
+    "tension"
+   ],
+   "transition_out": "cut",
+   "hint": "freezes listening"
+  },
+  {
+   "scene": 11,
+   "title": "حياة فوقك",
+   "duration": 10,
+   "chapter": 2,
+   "camera": {
+    "move": "crane_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust",
+    "leaves"
+   ],
+   "transition_out": "cut",
+   "hint": "branch animal silhouette"
+  },
+  {
+   "scene": 12,
+   "title": "حياة عند قدميك",
+   "duration": 10,
+   "chapter": 2,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.7,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "insects"
+   ],
+   "transition_out": "cut",
+   "hint": "lifts boot insects floor"
+  },
+  {
+   "scene": 13,
+   "title": "صوت الماء",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.1,
+    "handheld": 0.15
+   },
+   "mood": "day",
+   "fx": [
+    "dust",
+    "rays"
+   ],
+   "transition_out": "whip_right",
+   "hint": "moving toward stream water"
+  },
+  {
+   "scene": 14,
+   "title": "النهر الصغير",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "dissolve",
+   "hint": "emerges river edge"
+  },
+  {
+   "scene": 15,
+   "title": "ماء يبدو هادئًا",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "hesitating near water bottle"
+  },
+  {
+   "scene": 16,
+   "title": "ما تحت السطح",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "tilt_down",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "underwater",
+   "fx": [
+    "caustics",
+    "bubbles",
+    "wobble"
+   ],
+   "transition_out": "dissolve",
+   "hint": "fish glide murky water"
+  },
+  {
+   "scene": 17,
+   "title": "الأنقليس الكهربائي",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.8,
+    "handheld": 0
+   },
+   "mood": "underwater",
+   "fx": [
+    "caustics",
+    "bubbles",
+    "wobble"
+   ],
+   "transition_out": "cut",
+   "hint": "electric eel moving underwater",
+   "species": "eel"
+  },
+  {
+   "scene": 18,
+   "title": "قوة غير مرئية",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "underwater",
+   "fx": [
+    "caustics",
+    "bubbles",
+    "wobble",
+    "pulse"
+   ],
+   "transition_out": "cut",
+   "hint": "eel electrical pulse",
+   "pulse_at": [
+    0.7,
+    0.6
+   ]
+  },
+  {
+   "scene": 19,
+   "title": "البيرانا والسمعة",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "pan_left",
+    "amount": 0.8,
+    "handheld": 0
+   },
+   "mood": "underwater",
+   "fx": [
+    "caustics",
+    "bubbles",
+    "wobble"
+   ],
+   "transition_out": "cut",
+   "hint": "piranhas swimming roots",
+   "species": "piranha"
+  },
+  {
+   "scene": 20,
+   "title": "قرار عدم السباحة",
+   "duration": 10,
+   "chapter": 3,
+   "camera": {
+    "move": "pull_out",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "withdraws from river"
+  },
+  {
+   "scene": 21,
+   "title": "السير بمحاذاة النهر",
+   "duration": 10,
+   "chapter": 4,
+   "camera": {
+    "move": "pan_right",
+    "amount": 1,
+    "handheld": 0.15
+   },
+   "mood": "day",
+   "fx": [
+    "dust",
+    "mist"
+   ],
+   "transition_out": "whip_right",
+   "hint": "walking riverbank"
+  },
+  {
+   "scene": 22,
+   "title": "حركة على الضفة الأخرى",
+   "duration": 10,
+   "chapter": 4,
+   "camera": {
+    "move": "orbit_left",
+    "amount": 1,
+    "handheld": 0.15
+   },
+   "mood": "tension",
+   "fx": [
+    "mist",
+    "tension"
+   ],
+   "transition_out": "flash",
+   "hint": "watches shadow pass across"
+  },
+  {
+   "scene": 23,
+   "title": "ما الذي رآه؟",
+   "duration": 10,
+   "chapter": 4,
+   "camera": {
+    "move": "dolly_zoom",
+    "amount": 1,
+    "handheld": 0.3
+   },
+   "mood": "tension",
+   "fx": [
+    "tension"
+   ],
+   "transition_out": "cut",
+   "hint": "leans forward steps back"
+  },
+  {
+   "scene": 24,
+   "title": "موطن اليغور",
+   "duration": 10,
+   "chapter": 4,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust",
+    "mist"
+   ],
+   "transition_out": "cut",
+   "hint": "jaguar walking rainforest",
+   "species": "jaguar"
+  },
+  {
+   "scene": 25,
+   "title": "مفترس لا تراه",
+   "duration": 10,
+   "chapter": 4,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0.1
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "explorer scanning forest turns"
+  },
+  {
+   "scene": 26,
+   "title": "الابتعاد عن النهر",
+   "duration": 10,
+   "chapter": 4,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.1,
+    "handheld": 0.2
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "light_leak",
+   "hint": "entering rainforest undergrowth"
+  },
+  {
+   "scene": 27,
+   "title": "الإرهاق الأول",
+   "duration": 10,
+   "chapter": 5,
+   "camera": {
+    "move": "drift",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "heat",
+   "fx": [
+    "heat",
+    "dust",
+    "insects"
+   ],
+   "transition_out": "slow_dissolve",
+   "hint": "resting exhausted wipes face",
+   "fallback": 28
+  },
+  {
+   "scene": 28,
+   "title": "هواء ثقيل",
+   "duration": 10,
+   "chapter": 5,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "heat",
+   "fx": [
+    "heat",
+    "dust"
+   ],
+   "transition_out": "zoom_through",
+   "hint": "fanning shirt humid"
+  },
+  {
+   "scene": 29,
+   "title": "الحشرات في كل مكان",
+   "duration": 10,
+   "chapter": 5,
+   "camera": {
+    "move": "drift",
+    "amount": 1,
+    "handheld": 0.2
+   },
+   "mood": "day",
+   "fx": [
+    "insects",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "waving away insects mosquitoes"
+  },
+  {
+   "scene": 30,
+   "title": "خطر صغير",
+   "duration": 10,
+   "chapter": 5,
+   "camera": {
+    "move": "tilt_down",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "insects"
+   ],
+   "transition_out": "cut",
+   "hint": "checking arm bites"
+  },
+  {
+   "scene": 31,
+   "title": "الملاريا",
+   "duration": 10,
+   "chapter": 5,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "insects",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "mosquito lifts off leaf",
+   "species": "mosquito"
+  },
+  {
+   "scene": 32,
+   "title": "لا ترى كل المخاطر",
+   "duration": 10,
+   "chapter": 5,
+   "camera": {
+    "move": "orbit_left",
+    "amount": 1,
+    "handheld": 0.2
+   },
+   "mood": "tension",
+   "fx": [
+    "insects",
+    "dust"
+   ],
+   "transition_out": "flash",
+   "hint": "brushing shoulder"
+  },
+  {
+   "scene": 33,
+   "title": "صوت خلفه",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.06,
+    "handheld": 0.55
+   },
+   "mood": "tension",
+   "fx": [
+    "tension"
+   ],
+   "transition_out": "cut",
+   "hint": "reacting to rustle"
+  },
+  {
+   "scene": 34,
+   "title": "لا شيء ظاهر",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "static",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "tension",
+   "fx": [
+    "leaves"
+   ],
+   "transition_out": "cut",
+   "hint": "leaves sway foliage"
+  },
+  {
+   "scene": 35,
+   "title": "الضوء يتراجع",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "tilt_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "rays_fade",
+    "dust"
+   ],
+   "transition_out": "slow_dissolve",
+   "hint": "noticing light disappearing",
+   "hud": {
+    "time": "المساء",
+    "hl": [
+     "time"
+    ]
+   }
+  },
+  {
+   "scene": 36,
+   "title": "المساء يقترب",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust",
+    "mist"
+   ],
+   "transition_out": "cut",
+   "hint": "scanning ground forest"
+  },
+  {
+   "scene": 37,
+   "title": "البحث عن مكان",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "steps on raised ground"
+  },
+  {
+   "scene": 38,
+   "title": "تفقد مكان النوم",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "pan_left",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "insects"
+   ],
+   "transition_out": "cut",
+   "hint": "moving leaves aside"
+  },
+  {
+   "scene": 39,
+   "title": "مخابئ محتملة",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.1,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "insect disappears into crack log"
+  },
+  {
+   "scene": 40,
+   "title": "الحذر من الثعابين",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0.1
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "steps around fallen log"
+  },
+  {
+   "scene": 41,
+   "title": "أفعى الحُفَر",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "pit viper flicking tongue",
+   "species": "viper"
+  },
+  {
+   "scene": 42,
+   "title": "ليست كل مواجهة",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "dolly_zoom",
+    "amount": 0.7,
+    "handheld": 0.15
+   },
+   "mood": "dusk",
+   "fx": [
+    "tension"
+   ],
+   "transition_out": "cut",
+   "hint": "looking ahead worried"
+  },
+  {
+   "scene": 43,
+   "title": "قرار البقاء",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "pull_out",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "night",
+   "fx": [
+    "fireflies"
+   ],
+   "transition_out": "dip_night",
+   "hint": "sits roots bottle stays"
+  },
+  {
+   "scene": 44,
+   "title": "أصوات الظلام",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "orbit_left",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "night",
+   "fx": [
+    "fireflies",
+    "mist"
+   ],
+   "transition_out": "cut",
+   "hint": "hearing sounds night",
+   "hud": {
+    "time": "الليل",
+    "hl": [
+     "time"
+    ]
+   }
+  },
+  {
+   "scene": 45,
+   "title": "عينان في العتمة؟",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "night",
+   "fx": [
+    "fireflies",
+    "drips"
+   ],
+   "transition_out": "cut",
+   "hint": "droplet falls darkness"
+  },
+  {
+   "scene": 46,
+   "title": "الخوف لا يختفي",
+   "duration": 10,
+   "chapter": 6,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.05,
+    "handheld": 0,
+    "breathe": true
+   },
+   "mood": "night",
+   "fx": [
+    "fireflies"
+   ],
+   "transition_out": "slow_dissolve",
+   "hint": "closing eyes breathing"
+  },
+  {
+   "scene": 47,
+   "title": "بداية المطر",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "tilt_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "rain",
+   "fx": [
+    "rain_light",
+    "drips"
+   ],
+   "transition_out": "cut",
+   "hint": "raising hand to rain"
+  },
+  {
+   "scene": 48,
+   "title": "مطر غزير",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0.15
+   },
+   "mood": "rain",
+   "fx": [
+    "rain",
+    "lightning",
+    "mist"
+   ],
+   "transition_out": "cut",
+   "hint": "hunches in heavy rain"
+  },
+  {
+   "scene": 49,
+   "title": "الغابة المغمورة",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.7,
+    "handheld": 0
+   },
+   "mood": "rain",
+   "fx": [
+    "rain_light",
+    "drips"
+   ],
+   "transition_out": "dissolve",
+   "hint": "water flowing around root"
+  },
+  {
+   "scene": 50,
+   "title": "الغابة والماء",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "crane_down",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "rain",
+   "fx": [
+    "rain_light",
+    "mist"
+   ],
+   "transition_out": "cut",
+   "hint": "water ripples flooded forest"
+  },
+  {
+   "scene": 51,
+   "title": "ماذا سيجد صباحًا؟",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "rain",
+   "fx": [
+    "rain_light"
+   ],
+   "transition_out": "cut",
+   "hint": "protecting food supplies"
+  },
+  {
+   "scene": 52,
+   "title": "خطأ البداية",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "rain",
+   "fx": [
+    "rain_light"
+   ],
+   "transition_out": "dissolve",
+   "hint": "looking across rainforest regret"
+  },
+  {
+   "scene": 53,
+   "title": "ليلة بلا نوم",
+   "duration": 10,
+   "chapter": 7,
+   "camera": {
+    "move": "pull_out",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "night",
+   "fx": [
+    "rain_light",
+    "fireflies"
+   ],
+   "transition_out": "light_leak",
+   "hint": "awake night resting curled",
+   "fallback": 43
+  },
+  {
+   "scene": 54,
+   "title": "الصباح الثاني",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "crane_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "dawn",
+   "fx": [
+    "rays",
+    "mist",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "waking up morning",
+   "hud": {
+    "day": 2,
+    "time": "الفجر",
+    "hl": [
+     "day"
+    ]
+   }
+  },
+  {
+   "scene": 55,
+   "title": "مؤن أقل",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "rotate",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "dawn",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "checking water and food",
+   "hud": {
+    "water": 0.35,
+    "food": 0.15,
+    "hl": [
+     "water",
+     "food"
+    ]
+   }
+  },
+  {
+   "scene": 56,
+   "title": "هل تحركت فعلًا؟",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "whip_right",
+   "hint": "turning in rainforest landmarks"
+  },
+  {
+   "scene": 57,
+   "title": "محاولة جديدة",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0.3
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "walking through wet foliage"
+  },
+  {
+   "scene": 58,
+   "title": "أرض منخفضة",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "pan_left",
+    "amount": 0.8,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "insects"
+   ],
+   "transition_out": "cut",
+   "hint": "examines flooded lowland"
+  },
+  {
+   "scene": 59,
+   "title": "عمق مجهول",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0.15
+   },
+   "mood": "tension",
+   "fx": [
+    "tension",
+    "insects"
+   ],
+   "transition_out": "cut",
+   "hint": "peering into murky water"
+  },
+  {
+   "scene": 60,
+   "title": "الأناكوندا",
+   "duration": 10,
+   "chapter": 8,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "mist"
+   ],
+   "transition_out": "ink",
+   "hint": "anaconda wetland",
+   "species": "anaconda"
+  },
+  {
+   "scene": 61,
+   "title": "طريق آخر",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.8,
+    "handheld": 0.15
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "testing ground vegetation"
+  },
+  {
+   "scene": 62,
+   "title": "كل طريق أصعب",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "pull_out",
+    "amount": 0.1,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "looking at rainforest openings"
+  },
+  {
+   "scene": 63,
+   "title": "ليست مواجهة واحدة",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.08,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "insects",
+    "drips"
+   ],
+   "transition_out": "dissolve",
+   "hint": "rain drips canopy hazards"
+  },
+  {
+   "scene": 64,
+   "title": "الماء الذي تحتاجه",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "shakes nearly empty bottle",
+   "hud": {
+    "water": 0.12,
+    "hl": [
+     "water"
+    ]
+   }
+  },
+  {
+   "scene": 65,
+   "title": "الطريق الذي لا تعرفه",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "tilt_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "rays",
+    "dust"
+   ],
+   "transition_out": "whip_up",
+   "hint": "pointing in rainforest"
+  },
+  {
+   "scene": 66,
+   "title": "اتساع الأمازون",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "drift",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "aerial",
+   "fx": [
+    "clouds",
+    "mist"
+   ],
+   "transition_out": "dissolve",
+   "hint": "cloud shadows drift over rainforest aerial",
+   "map": 1
+  },
+  {
+   "scene": 67,
+   "title": "البعد عن المساعدة",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "aerial",
+   "fx": [
+    "mist"
+   ],
+   "transition_out": "cut",
+   "hint": "mist drifting across forest landscape"
+  },
+  {
+   "scene": 68,
+   "title": "لا لافتات ولا محطات",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "facing dense rainforest wall"
+  },
+  {
+   "scene": 69,
+   "title": "الخيارات تتقلص",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "rotate",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "calculating remaining supplies",
+   "hud": {
+    "water": 0.08,
+    "food": 0.06,
+    "hl": [
+     "water",
+     "food"
+    ]
+   }
+  },
+  {
+   "scene": 70,
+   "title": "يومان فقط",
+   "duration": 8,
+   "chapter": 9,
+   "camera": {
+    "move": "tilt_up",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "tension",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "light_leak",
+   "hint": "looking toward canopy",
+   "kinetic": "يومان فقط"
+  },
+  {
+   "scene": 71,
+   "title": "أهل الغابة",
+   "duration": 8,
+   "chapter": 10,
+   "camera": {
+    "move": "pan_right",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "warm",
+   "fx": [
+    "dust",
+    "mist"
+   ],
+   "transition_out": "dissolve",
+   "hint": "people moving amazon settlement"
+  },
+  {
+   "scene": 72,
+   "title": "معرفة متوارثة",
+   "duration": 8,
+   "chapter": 10,
+   "camera": {
+    "move": "orbit_left",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "warm",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "guide pointing along river"
+  },
+  {
+   "scene": 73,
+   "title": "معرفة النباتات",
+   "duration": 8,
+   "chapter": 10,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "warm",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "hand pointing to plant leaves"
+  },
+  {
+   "scene": 74,
+   "title": "الأنهار طرق حياة",
+   "duration": 8,
+   "chapter": 10,
+   "camera": {
+    "move": "pan_left",
+    "amount": 0.7,
+    "handheld": 0
+   },
+   "mood": "warm",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "dissolve",
+   "hint": "canoe gliding amazon river"
+  },
+  {
+   "scene": 75,
+   "title": "الفارق هو المعرفة",
+   "duration": 8,
+   "chapter": 10,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "zoom_through",
+   "hint": "watching passing river canoe"
+  },
+  {
+   "scene": 76,
+   "title": "عالم صنعناه",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "interior",
+   "fx": [
+    "dust_warm"
+   ],
+   "transition_out": "whip_left",
+   "hint": "water runs from tap indoors"
+  },
+  {
+   "scene": 77,
+   "title": "اختفاء الامتيازات",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "dip_black",
+   "hint": "phone battery dies",
+   "hud": {
+    "battery": 0.0,
+    "signal": 0,
+    "hl": [
+     "battery"
+    ]
+   }
+  },
+  {
+   "scene": 78,
+   "title": "بلا شبكة",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "dissolve",
+   "hint": "turns in rainforest clearing"
+  },
+  {
+   "scene": 79,
+   "title": "أين الماء الآمن؟",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "orbit_left",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "looking at water bottle river"
+  },
+  {
+   "scene": 80,
+   "title": "كيف تعرف الطريق؟",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.06,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "studying paths"
+  },
+  {
+   "scene": 81,
+   "title": "أين ستنام؟",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "orbit_right",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "checks ground and canopy"
+  },
+  {
+   "scene": 82,
+   "title": "ماذا ستأكل؟",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "stores ration food",
+   "hud": {
+    "food": 0.03,
+    "hl": [
+     "food"
+    ]
+   }
+  },
+  {
+   "scene": 83,
+   "title": "ما الذي لا تعرفه؟",
+   "duration": 8,
+   "chapter": 11,
+   "camera": {
+    "move": "pan_left",
+    "amount": 0.6,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "drips",
+    "dust"
+   ],
+   "transition_out": "ink",
+   "hint": "droplet rolls off leaf plant"
+  },
+  {
+   "scene": 84,
+   "title": "الغابة لا تطارده",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.07,
+    "handheld": 0
+   },
+   "mood": "day_mist",
+   "fx": [
+    "rays",
+    "leaves",
+    "dust"
+   ],
+   "transition_out": "dissolve",
+   "hint": "explorer standing towering trees"
+  },
+  {
+   "scene": 85,
+   "title": "لا تلاحظ وجودك",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "pan_left",
+    "amount": 0.7,
+    "handheld": 0
+   },
+   "mood": "day",
+   "fx": [
+    "leaves",
+    "dust"
+   ],
+   "transition_out": "cut",
+   "hint": "watching birds rainforest"
+  },
+  {
+   "scene": 86,
+   "title": "فقدان السيطرة",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "push_in",
+    "amount": 0.05,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "dust"
+   ],
+   "transition_out": "slow_dissolve",
+   "hint": "shifting expression"
+  },
+  {
+   "scene": 87,
+   "title": "السؤال الحقيقي",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "crane_up",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "rays",
+    "dust",
+    "mist"
+   ],
+   "transition_out": "dissolve",
+   "hint": "raising head canopy",
+   "kinetic": "السؤال الحقيقي"
+  },
+  {
+   "scene": 88,
+   "title": "ليس عليك أن تكون وحشًا",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "drift",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "aerial",
+   "fx": [
+    "clouds",
+    "mist"
+   ],
+   "transition_out": "dip_black",
+   "hint": "cloud shadows drift over rainforest"
+  },
+  {
+   "scene": 89,
+   "title": "كم من الوقت؟",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "pull_out",
+    "amount": 0.1,
+    "handheld": 0
+   },
+   "mood": "dusk",
+   "fx": [
+    "mist",
+    "dust"
+   ],
+   "transition_out": "dip_black",
+   "hint": "explorer standing tiny silhouette",
+   "kinetic": "كم من الوقت؟",
+   "kinetic_pos": "top"
+  },
+  {
+   "scene": 90,
+   "title": "الصمت بعد السؤال",
+   "duration": 8,
+   "chapter": 12,
+   "camera": {
+    "move": "drift",
+    "amount": 1,
+    "handheld": 0
+   },
+   "mood": "aerial",
+   "fx": [
+    "mist"
+   ],
+   "transition_out": "fade_to_black",
+   "hint": "mist drifting above amazon canopy",
+   "end": 1
+  }
+ ]
+}
